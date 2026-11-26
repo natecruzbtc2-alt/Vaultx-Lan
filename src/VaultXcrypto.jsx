@@ -1,10 +1,10 @@
-import { PriceProvider, AppProvider, useApp } from "./AppContext";
-import { LandingPage, LoginPage, RegisterPage } from "./AuthPages";
-import { Dashboard, AdminPanel } from "./Layouts";
-import { Modals, Toast } from "./Modals";
-import DraggableChat from "./DraggableChat";
-import { AboutPage, ContactPage, TermsPage, PrivacyPage } from "./Pages";
-import { SettingsPage } from "./Settings";
+import { PriceProvider, AppProvider, useApp } from "../AppContext";
+import { LandingPage, LoginPage, RegisterPage } from "../AuthPages";
+import { Dashboard, AdminPanel } from "../Layouts";
+import { Modals, Toast } from "../Modals";
+import DraggableChat from "../DraggableChat";
+import { AboutPage, ContactPage, TermsPage, PrivacyPage } from "../Pages";
+import { SettingsPage } from "../Settings";
 
 function App() {
   const { view } = useApp();
