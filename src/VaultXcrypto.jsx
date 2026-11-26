@@ -10,16 +10,16 @@ function App() {
   const { view } = useApp();
   return (
     <>
-      {view === "landing"  && <LandingPage />}
-      {view === "login"    && <LoginPage />}
+      {view === "landing" && <LandingPage />}
+      {view === "login" && <LoginPage />}
       {view === "register" && <RegisterPage />}
-      {view === "dashboard"&& <Dashboard />}
-      {view === "admin"    && <AdminPanel />}
-      {view === "about"    && <AboutPage />}
-      {view === "contact"  && <ContactPage />}
-      {view === "terms"    && <TermsPage />}
-      {view === "privacy"  && <PrivacyPage />}
-      {view === "settings"  && <SettingsPage />}
+      {view === "dashboard" && <Dashboard />}
+      {view === "admin" && <AdminPanel />}
+      {view === "about" && <AboutPage />}
+      {view === "contact" && <ContactPage />}
+      {view === "terms" && <TermsPage />}
+      {view === "privacy" && <PrivacyPage />}
+      {view === "settings" && <SettingsPage />}
       <Modals />
       <Toast />
       <DraggableChat />
